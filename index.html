@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travel — Explore the World</title>
+    <meta name="description"
+        content="Discover breathtaking destinations, thrilling adventures, and unforgettable travel experiences with Wanderlust Travel.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="image/logo.png" type="image/png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 4.6 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ====== HEADER ====== -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+
+            <!-- Left: Logo + Nav -->
+            <div class="header-left">
+
+                <!-- Logo -->
+                <a href="index.html" class="header-logo" id="header-logo">
+                    <img src="image/logo.png" alt="Wanderlust Travel">
+                </a>
+
+                <!-- Primary Nav -->
+                <nav class="primary-nav" id="primary-nav">
+                    <ul class="primary-nav__list">
+
+                        <li class="primary-nav__item">
+                            <a href="#" class="primary-nav__link">
+                                Destinations <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="primary-nav__dropdown">
+                                <li><a href="#" class="primary-nav__dropdown-link">Asia</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Europe</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Africa</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">South America</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">North America</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Australia &amp; Oceania</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="primary-nav__item">
+                            <a href="#" class="primary-nav__link">
+                                Adventures <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="primary-nav__dropdown">
+                                <li><a href="#" class="primary-nav__dropdown-link">Rafting</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Hiking &amp; Trekking</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Safari Tours</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Wildlife &amp; Nature</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Cultural Journeys</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="primary-nav__item">
+                            <a href="#" class="primary-nav__link">
+                                Inspiration <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="primary-nav__dropdown">
+                                <li><a href="#" class="primary-nav__dropdown-link">Travel Stories</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Photo Gallery</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Travel Blog</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Videos</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="primary-nav__item">
+                            <a href="#" class="primary-nav__link">
+                                Why Wanderlust <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="primary-nav__dropdown">
+                                <li><a href="#" class="primary-nav__dropdown-link">About Us</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Our Guides</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Testimonials</a></li>
+                                <li><a href="#" class="primary-nav__dropdown-link">Safety &amp; Trust</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Mobile utility links (shown inside nav on mobile) -->
+                    <div class="mobile-utils">
+                        <a href="tel:+18003466277"><i class="fas fa-phone-alt"></i> 1 (800) 346-6277</a>
+                        <a href="#"><i class="fas fa-paper-plane"></i> Contact</a>
+                        <a href="#"><i class="fas fa-tag"></i> Ways to Save</a>
+                        <a href="#"><i class="fas fa-book-open"></i> Trip Resources</a>
+                    </div>
+
+                    <!-- Mobile CTA -->
+                    <a href="#" class="header-cta mobile-cta">Request Catalog</a>
+                </nav>
+            </div>
+
+            <!-- Right: Utility links + CTA -->
+            <div class="header-right">
+                <div class="header-utils">
+                    <a href="tel:+18003466277" class="header-utils__item">
+                        <i class="fas fa-phone-alt"></i>
+                        1 (800) 346-6277
+                    </a>
+                    <a href="#" class="header-utils__item">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                    <a href="#" class="header-utils__item">
+                        Ways to Save
+                    </a>
+                    <a href="#" class="header-utils__item">
+                        Trip Resources
+                    </a>
+                </div>
+                <a href="#" class="header-cta desktop-cta" id="header-cta">Request Catalog</a>
+            </div>
+
+            <!-- Mobile Hamburger -->
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Colorful Stripe -->
+    <div class="header-stripe">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Nav Overlay (mobile) -->
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+
+    <!-- ====== HERO SLIDER ====== -->
+    <section class="hero-section">
+        <div class="hero-slider" id="hero-slider">
+            <!-- Slide 1 -->
+            <div class="hero-slide">
+                <div class="hero-slide-bg"
+                    style="background-image: url('https://media.oars.com/wp-content/uploads/2026/02/03142142/MFS-homepage26-1-1680x900.jpg');">
+                </div>
+                <div class="hero-slide-overlay"></div>
+                <div class="hero-slide-inner">
+                    <div class="hero-title-wrapper">
+                        <h1 class="hero-title">THE WORLD'S BEST<br>RAFTING ADVENTURES</h1>
+                    </div>
+                    <div class="hero-details-wrapper">
+                        <div class="hero-details-line"></div>
+                        <div class="hero-details">
+                            <h3 class="hero-details-title">Explore Grand Canyon with OARS</h3>
+                            <p class="hero-details-location">Location: <span>Grand Canyon, AZ</span></p>
+                            <a href="#" class="hero-details-link">VIEW DETAILS <i class="fas fa-chevron-right"
+                                    style="margin-left: 5px; font-size: 10px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide">
+                <div class="hero-slide-bg"
+                    style="background-image: url('https://media.oars.com/wp-content/uploads/2026/02/03142142/MFS-homepage26-1-1680x900.jpg'); filter: hue-rotate(45deg);">
+                </div>
+                <div class="hero-slide-overlay"></div>
+                <div class="hero-slide-inner">
+                    <div class="hero-title-wrapper">
+                        <h1 class="hero-title">UNFORGETTABLE<br>WILDERNESS JOURNEYS</h1>
+                    </div>
+                    <div class="hero-details-wrapper">
+                        <div class="hero-details-line"></div>
+                        <div class="hero-details">
+                            <h3 class="hero-details-title">Middle Fork of the Salmon</h3>
+                            <p class="hero-details-location">Location: <span>Idaho, USA</span></p>
+                            <a href="#" class="hero-details-link">VIEW DETAILS <i class="fas fa-chevron-right"
+                                    style="margin-left: 5px; font-size: 10px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="hero-slide">
+                <div class="hero-slide-bg"
+                    style="background-image: url('https://media.oars.com/wp-content/uploads/2026/02/03142142/MFS-homepage26-1-1680x900.jpg'); filter: hue-rotate(-45deg);">
+                </div>
+                <div class="hero-slide-overlay"></div>
+                <div class="hero-slide-inner">
+                    <div class="hero-title-wrapper">
+                        <h1 class="hero-title">EXPERIENCE EPIC<br>WHITEWATER RAPIDS</h1>
+                    </div>
+                    <div class="hero-details-wrapper">
+                        <div class="hero-details-line"></div>
+                        <div class="hero-details">
+                            <h3 class="hero-details-title">Cataract Canyon Expeditions</h3>
+                            <p class="hero-details-location">Location: <span>Moab, UT</span></p>
+                            <a href="#" class="hero-details-link">VIEW DETAILS <i class="fas fa-chevron-right"
+                                    style="margin-left: 5px; font-size: 10px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left Pagination Nav -->
+        <div class="hero-slider-nav">
+            <span class="slider-nav-current">01</span>
+            <div class="slider-nav-progress">
+                <div class="slider-nav-progress-bar"></div>
+            </div>
+            <span class="slider-nav-total">03</span>
+        </div>
+    </section>
+
+    <!-- ====== FEATURED ADVENTURES ====== -->
+    <section class="featured-section"
+        style="background-image: url('https://media.oars.com/wp-content/uploads/2022/11/21011009/oars-homepage-bg.jpg');">
+
+
+        <!-- ====== TESTIMONIAL HERO ====== -->
+        <section class="testimonial-hero">
+            <div class="testimonial-hero-overlay"></div>
+            <div class="container testimonial-hero-container text-center">
+                <div class="testimonial-decorative-line">
+                    <span></span><span class="active"></span><span></span>
+                </div>
+                <h3 class="testimonial-quote">
+                    Best River Outfitter EVER! We have done many self-guided<br>river trips, but this was our first with
+                    an outfitter. I was<br>blown away by the quality of the guides and the attention to<br>detail in
+                    making every element of our experience<br>exceptional. I have been recommending OARS to everyone
+                    I<br>know and will definitely be floating with them again!
+                </h3>
+                <div class="testimonial-author">Duane</div>
+                <div class="testimonial-trip">Grand Canyon Rafting: Lees Ferry to Pipe Creek guest</div>
+                <a href="#" class="testimonial-link">VIEW TRIP DETAILS</a>
+            </div>
+        </section>
+
+
+
+        <div class="featured-overlay"></div>
+        <div class="container-fluid featured-container">
+            <div class="featured-header text-center">
+                <p class="featured-subtitle">Featured Adventures</p>
+                <h2 class="featured-title">OUR MOST POPULAR RAFTING TRIPS</h2>
+                <a href="#" class="btn-primary">VIEW ALL ADVENTURES</a>
+            </div>
+
+            <div class="featured-slider-wrapper">
+                <div class="featured-slider" id="featured-slider">
+
+                    <!-- Card 1 -->
+                    <div class="trip-card-wrapper">
+                        <div class="trip-card">
+                            <div class="trip-img-box">
+                                <img src="https://media.oars.com/wp-content/uploads/2024/07/11073043/SFA_Outpost-16-scaled.jpg"
+                                    alt="South Fork American River">
+                                <div class="trip-favorite"><i class="far fa-heart"></i></div>
+                            </div>
+                            <div class="trip-body">
+                                <p class="trip-category">WHITEWATER RAFTING</p>
+                                <h4 class="trip-name">South Fork American River Rafting Gorge 1-Day</h4>
+                                <div class="trip-stats">
+                                    <span>1 Day</span> <span class="sep">|</span>
+                                    <span class="rating"><i class="fas fa-star"></i> 4.9 <span
+                                            class="reviews">(66)</span></span>
+                                </div>
+                                <ul class="trip-details-list">
+                                    <li><strong>Location:</strong> California</li>
+                                    <li><strong>Adventure Level:</strong> Easier to Moderate</li>
+                                    <li><strong>Minimum Age:</strong> 8 (10-12 during high water)</li>
+                                </ul>
+                            </div>
+                            <div class="trip-footer">
+                                <div class="trip-price">From <strong>$144 – $189</strong></div>
+                                <div class="trip-compare">
+                                    <label>
+                                        COMPARE <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="trip-card-wrapper">
+                        <div class="trip-card">
+                            <div class="trip-img-box">
+                                <div class="trip-badge"><i class="fas fa-bolt"></i> Special</div>
+                                <img src="https://media.oars.com/wp-content/uploads/2015/12/20233352/CAT-featured.jpg"
+                                    alt="Green River Rafting">
+                                <div class="trip-favorite"><i class="far fa-heart"></i></div>
+                            </div>
+                            <div class="trip-body">
+                                <p class="trip-category">WHITEWATER RAFTING</p>
+                                <h4 class="trip-name">Green River Rafting through the Gates of Lodore</h4>
+                                <div class="trip-stats">
+                                    <span>3, 4 or 5 Days</span> <span class="sep">|</span>
+                                    <span class="rating"><i class="fas fa-star"></i> 4.98 <span
+                                            class="reviews">(421)</span></span>
+                                </div>
+                                <ul class="trip-details-list">
+                                    <li><strong>Location:</strong> Utah & Colorado</li>
+                                    <li><strong>Adventure Level:</strong> Moderate</li>
+                                    <li><strong>Minimum Age:</strong> 7 (10-12 during high water)</li>
+                                </ul>
+                            </div>
+                            <div class="trip-footer">
+                                <div class="trip-price">From <strong>$1049 – $1849</strong></div>
+                                <div class="trip-compare">
+                                    <label>
+                                        COMPARE <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="trip-card-wrapper">
+                        <div class="trip-card">
+                            <div class="trip-img-box">
+                                <img src="https://media.oars.com/wp-content/uploads/2024/07/11073043/SFA_Outpost-16-scaled.jpg"
+                                    alt="Utah Whitewater Rafting">
+                                <div class="trip-favorite"><i class="far fa-heart"></i></div>
+                            </div>
+                            <div class="trip-body">
+                                <p class="trip-category">WHITEWATER RAFTING</p>
+                                <h4 class="trip-name">Utah Whitewater Rafting through Split Mountain Canyon</h4>
+                                <div class="trip-stats">
+                                    <span>1 Day</span> <span class="sep">|</span>
+                                    <span class="rating"><i class="fas fa-star"></i> 4.91 <span
+                                            class="reviews">(387)</span></span>
+                                </div>
+                                <ul class="trip-details-list">
+                                    <li><strong>Location:</strong> Utah</li>
+                                    <li><strong>Adventure Level:</strong> Easier to Moderate</li>
+                                    <li><strong>Minimum Age:</strong> 5 (12 during high water)</li>
+                                </ul>
+                            </div>
+                            <div class="trip-footer">
+                                <div class="trip-price">From <strong>$121 – $149</strong></div>
+                                <div class="trip-compare">
+                                    <label>
+                                        COMPARE <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="trip-card-wrapper">
+                        <div class="trip-card">
+                            <div class="trip-img-box">
+                                <img src="https://media.oars.com/wp-content/uploads/2015/12/20233352/CAT-featured.jpg"
+                                    alt="Cataract Canyon">
+                                <div class="trip-favorite"><i class="far fa-heart"></i></div>
+                            </div>
+                            <div class="trip-body">
+                                <p class="trip-category">WHITEWATER RAFTING</p>
+                                <h4 class="trip-name">Cataract Canyon Whitewater Rafting</h4>
+                                <div class="trip-stats">
+                                    <span>4 or 6 Days</span> <span class="sep">|</span>
+                                    <span class="rating"><i class="fas fa-star"></i> 4.98 <span
+                                            class="reviews">(38)</span></span>
+                                </div>
+                                <ul class="trip-details-list">
+                                    <li><strong>Location:</strong> Utah</li>
+                                    <li><strong>Adventure Level:</strong> Moderate to Challenging</li>
+                                    <li><strong>Minimum Age:</strong> 9 (12-14 during high water)</li>
+                                </ul>
+                            </div>
+                            <div class="trip-footer">
+                                <div class="trip-price">From <strong>$1749 – $2599</strong></div>
+                                <div class="trip-compare">
+                                    <label>
+                                        COMPARE <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 (for scrolling) -->
+                    <div class="trip-card-wrapper">
+                        <div class="trip-card">
+                            <div class="trip-img-box">
+                                <img src="https://media.oars.com/wp-content/uploads/2024/07/11073043/SFA_Outpost-16-scaled.jpg"
+                                    alt="Rogue River">
+                                <div class="trip-favorite"><i class="far fa-heart"></i></div>
+                            </div>
+                            <div class="trip-body">
+                                <p class="trip-category">WHITEWATER RAFTING</p>
+                                <h4 class="trip-name">Rogue River Wilderness Rafting</h4>
+                                <div class="trip-stats">
+                                    <span>3, 4 or 5 Days</span> <span class="sep">|</span>
+                                    <span class="rating"><i class="fas fa-star"></i> 4.99 <span
+                                            class="reviews">(120)</span></span>
+                                </div>
+                                <ul class="trip-details-list">
+                                    <li><strong>Location:</strong> Oregon</li>
+                                    <li><strong>Adventure Level:</strong> Moderate</li>
+                                    <li><strong>Minimum Age:</strong> 7</li>
+                                </ul>
+                            </div>
+                            <div class="trip-footer">
+                                <div class="trip-price">From <strong>$1049 – $1599</strong></div>
+                                <div class="trip-compare">
+                                    <label>
+                                        COMPARE <input type="checkbox">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Custom Slider Controls -->
+                <div class="featured-slider-controls">
+                    <div class="featured-nav-arrows">
+                        <button class="featured-prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="featured-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="featured-progress-bar">
+                        <div class="featured-progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+    <!-- Slick Slider JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
