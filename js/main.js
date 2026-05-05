@@ -191,4 +191,67 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
+
+    if (typeof $ !== 'undefined' && $.fn.slick) {
+    var $destSlider = $('.dest-slider');
+    var $destProgress = $('.dest-progress-fill'); // use different class
+    
+    if ($destSlider.length) {
+
+        $destSlider.on('init', function(event, slick){
+            updateDestProgress(slick.currentSlide, slick.slideCount, slick.options.slidesToShow);
+        });
+
+        $destSlider.slick({
+            dots: false,
+            arrows: true,
+            prevArrow: $('.dest-prev'),
+            nextArrow: $('.dest-next'),
+            infinite: false,
+            speed: 600,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 3 } },
+                { breakpoint: 992, settings: { slidesToShow: 2 } },
+                { breakpoint: 576, settings: { slidesToShow: 1 } }
+            ]
+        });
+
+        $destSlider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+            updateDestProgress(nextSlide, slick.slideCount, slick.options.slidesToShow);
+        });
+
+        function updateDestProgress(nextSlide, totalSlides, slidesToShow) {
+            var currentSlidesToShow = slidesToShow;
+
+            if (window.innerWidth < 1200) currentSlidesToShow = 3;
+            if (window.innerWidth < 992) currentSlidesToShow = 2;
+            if (window.innerWidth < 576) currentSlidesToShow = 1;
+
+            var maxSlideIndex = totalSlides - currentSlidesToShow;
+            if (maxSlideIndex < 0) maxSlideIndex = 0;
+
+            var percentage = maxSlideIndex === 0 ? 100 : (nextSlide / maxSlideIndex) * 100;
+            percentage = Math.max(0, Math.min(percentage, 100));
+
+            var thumbWidth = (currentSlidesToShow / totalSlides) * 100;
+
+            $destProgress.css({
+                width: thumbWidth + '%',
+                left: (percentage * (100 - thumbWidth) / 100) + '%'
+            });
+        }
+
+        window.addEventListener('resize', function() {
+            if ($destSlider.hasClass('slick-initialized')) {
+                var slick = $destSlider.slick('getSlick');
+                updateDestProgress(slick.currentSlide, slick.slideCount, slick.options.slidesToShow);
+            }
+        });
+    }
+}
+
+    
+
 });
