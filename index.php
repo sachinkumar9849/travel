@@ -1,246 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wanderlust Travel — Explore the World</title>
-    <meta
-      name="description"
-      content="Discover breathtaking destinations, thrilling adventures, and unforgettable travel experiences with Wanderlust Travel."
-    />
-
-    <!-- Favicon -->
-    <link rel="icon" href="image/logo.png" type="image/png" />
-
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap 4.6 CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    />
-
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-
-    <!-- Slick Slider CSS -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-
-  <body>
-    <!-- ====== HEADER ====== -->
-    <header class="site-header" id="site-header">
-      <div class="header-inner">
-        <!-- Left: Logo + Nav -->
-        <div class="header-left">
-          <!-- Logo -->
-          <a href="index.html" class="header-logo" id="header-logo">
-            <img src="image/logo.png" alt="Wanderlust Travel" />
-          </a>
-
-          <!-- Primary Nav -->
-          <nav class="primary-nav" id="primary-nav">
-            <ul class="primary-nav__list">
-              <li class="primary-nav__item">
-                <a href="#" class="primary-nav__link">
-                  Destinations <i class="fas fa-chevron-down"></i>
-                </a>
-                <ul class="primary-nav__dropdown">
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link">Asia</a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link">Europe</a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link">Africa</a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >South America</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >North America</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Australia &amp; Oceania</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="primary-nav__item">
-                <a href="#" class="primary-nav__link">
-                  Adventures <i class="fas fa-chevron-down"></i>
-                </a>
-                <ul class="primary-nav__dropdown">
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link">Rafting</a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Hiking &amp; Trekking</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Safari Tours</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Wildlife &amp; Nature</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Cultural Journeys</a
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li class="primary-nav__item">
-                <a href="#" class="primary-nav__link">
-                  Inspiration <i class="fas fa-chevron-down"></i>
-                </a>
-                <ul class="primary-nav__dropdown">
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Travel Stories</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Photo Gallery</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Travel Blog</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link">Videos</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="primary-nav__item">
-                <a href="#" class="primary-nav__link">
-                  Why Wanderlust <i class="fas fa-chevron-down"></i>
-                </a>
-                <ul class="primary-nav__dropdown">
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link">About Us</a>
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Our Guides</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Testimonials</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="primary-nav__dropdown-link"
-                      >Safety &amp; Trust</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-
-            <!-- Mobile utility links (shown inside nav on mobile) -->
-            <div class="mobile-utils">
-              <a href="tel:+18003466277"
-                ><i class="fas fa-phone-alt"></i> 1 (800) 346-6277</a
-              >
-              <a href="#"><i class="fas fa-paper-plane"></i> Contact</a>
-              <a href="#"><i class="fas fa-tag"></i> Ways to Save</a>
-              <a href="#"><i class="fas fa-book-open"></i> Trip Resources</a>
-            </div>
-
-            <!-- Mobile CTA -->
-            <a href="#" class="header-cta mobile-cta">Request Catalog</a>
-          </nav>
-        </div>
-
-        <!-- Right: Utility links + CTA -->
-        <div class="header-right">
-          <div class="header-utils">
-            <a href="tel:+18003466277" class="header-utils__item">
-              <i class="fas fa-phone-alt"></i>
-              1 (800) 346-6277
-            </a>
-            <a href="#" class="header-utils__item">
-              <i class="fas fa-paper-plane"></i>
-              Contact
-            </a>
-            <a href="#" class="header-utils__item"> Ways to Save </a>
-            <a href="#" class="header-utils__item"> Trip Resources </a>
-          </div>
-          <a href="#" class="header-cta desktop-cta" id="header-cta"
-            >Request Catalog</a
-          >
-        </div>
-
-        <!-- Mobile Hamburger -->
-        <button
-          class="mobile-toggle"
-          id="mobile-toggle"
-          aria-label="Toggle Navigation"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-    </header>
-
-    <!-- Colorful Stripe -->
-    <div class="header-stripe">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-    <!-- Nav Overlay (mobile) -->
-    <div class="nav-overlay" id="nav-overlay"></div>
+<?php include "include/header.php"?>
 
     <!-- ====== HERO SLIDER ====== -->
     <section class="hero-section">
@@ -257,26 +15,12 @@
           <div class="hero-slide-inner">
             <div class="hero-title-wrapper">
               <h1 class="hero-title">
-                THE WORLD'S BEST<br />RAFTING ADVENTURES
+                THE LAND OF<br />HIMALAYAS
               </h1>
             </div>
             <div class="hero-details-wrapper">
               <div class="hero-details-line"></div>
-              <div class="hero-details">
-                <h3 class="hero-details-title">
-                  Explore Grand Canyon with OARS
-                </h3>
-                <p class="hero-details-location">
-                  Location: <span>Grand Canyon, AZ</span>
-                </p>
-                <a href="#" class="hero-details-link"
-                  >VIEW DETAILS
-                  <i
-                    class="fas fa-chevron-right"
-                    style="margin-left: 5px; font-size: 10px"
-                  ></i
-                ></a>
-              </div>
+           
             </div>
           </div>
         </div>
@@ -297,19 +41,6 @@
             </div>
             <div class="hero-details-wrapper">
               <div class="hero-details-line"></div>
-              <div class="hero-details">
-                <h3 class="hero-details-title">Middle Fork of the Salmon</h3>
-                <p class="hero-details-location">
-                  Location: <span>Idaho, USA</span>
-                </p>
-                <a href="#" class="hero-details-link"
-                  >VIEW DETAILS
-                  <i
-                    class="fas fa-chevron-right"
-                    style="margin-left: 5px; font-size: 10px"
-                  ></i
-                ></a>
-              </div>
             </div>
           </div>
         </div>
@@ -330,19 +61,6 @@
             </div>
             <div class="hero-details-wrapper">
               <div class="hero-details-line"></div>
-              <div class="hero-details">
-                <h3 class="hero-details-title">Cataract Canyon Expeditions</h3>
-                <p class="hero-details-location">
-                  Location: <span>Moab, UT</span>
-                </p>
-                <a href="#" class="hero-details-link"
-                  >VIEW DETAILS
-                  <i
-                    class="fas fa-chevron-right"
-                    style="margin-left: 5px; font-size: 10px"
-                  ></i
-                ></a>
-              </div>
             </div>
           </div>
         </div>
@@ -373,18 +91,13 @@
             <span></span><span class="active"></span><span></span>
           </div>
           <h3 class="testimonial-quote">
-            Best River Outfitter EVER! We have done many self-guided<br />river
-            trips, but this was our first with an outfitter. I was<br />blown
-            away by the quality of the guides and the attention to<br />detail
-            in making every element of our experience<br />exceptional. I have
-            been recommending OARS to everyone I<br />know and will definitely
-            be floating with them again!
+           I recently completed the Manaslu Circuit Trek, and it was an experience that surpassed all expectations. The diverse landscapes, from terraced fields and quaint villages to snow-capped peaks and pristine lakes, left me in awe at every turn. The trek provided a perfect balance of adventure and cultural immersion. The highlight was undoubtedly crossing Larke Pass, standing amidst the towering peaks.
           </h3>
-          <div class="testimonial-author">Duane</div>
+          <div class="testimonial-author">Jeebit Maharjan</div>
           <div class="testimonial-trip">
-            Grand Canyon Rafting: Lees Ferry to Pipe Creek guest
+            Everest Base Camp
           </div>
-          <a href="#" class="testimonial-link">VIEW TRIP DETAILS</a>
+          <a href="#" class="testimonial-link">VIEW ALL REVIEWS</a>
         </div>
       </section>
 
@@ -392,8 +105,8 @@
       <div class="container-fluid featured-container">
         <div class="featured-header text-center">
           <p class="featured-subtitle">Featured Adventures</p>
-          <h2 class="featured-title">OUR MOST POPULAR RAFTING TRIPS</h2>
-          <a href="#" class="btn-primary">VIEW ALL ADVENTURES</a>
+          <h2 class="featured-title">OUR MOST POPULAR DESTINATIONS</h2>
+          <a href="#" class="btn-primary">VIEW ALL DESTINATIONS</a>
         </div>
 
         <div class="featured-slider-wrapper">
@@ -403,15 +116,14 @@
               <div class="trip-card">
                 <div class="trip-img-box">
                   <img
-                    src="https://media.oars.com/wp-content/uploads/2024/07/11073043/SFA_Outpost-16-scaled.jpg"
-                    alt="South Fork American River"
+                    src="https://staging2.webhouse.com.np/images/main/Wed-04-44-15-957067939-gettyimages-1233280207.jpg"
+                    alt=""
                   />
-                  <div class="trip-favorite"><i class="far fa-heart"></i></div>
                 </div>
                 <div class="trip-body">
-                  <p class="trip-category">WHITEWATER RAFTING</p>
+                  <p class="trip-category">Trekking</p>
                   <h4 class="trip-name">
-                    South Fork American River Rafting Gorge 1-Day
+                    Everest Base Camp Trek
                   </h4>
                   <div class="trip-stats">
                     <span>1 Day</span> <span class="sep">|</span>
@@ -421,7 +133,7 @@
                     >
                   </div>
                   <ul class="trip-details-list">
-                    <li><strong>Location:</strong> California</li>
+                    <li><strong>Max Altitude:</strong> 4,445m</li>
                     <li>
                       <strong>Adventure Level:</strong> Easier to Moderate
                     </li>
@@ -439,19 +151,16 @@
             <div class="trip-card-wrapper">
               <div class="trip-card">
                 <div class="trip-img-box">
-                  <div class="trip-badge">
-                    <i class="fas fa-bolt"></i> Special
-                  </div>
+    
                   <img
                     src="https://media.oars.com/wp-content/uploads/2015/12/20233352/CAT-featured.jpg"
                     alt="Green River Rafting"
                   />
-                  <div class="trip-favorite"><i class="far fa-heart"></i></div>
                 </div>
                 <div class="trip-body">
-                  <p class="trip-category">WHITEWATER RAFTING</p>
+                  <p class="trip-category">Trekking</p>
                   <h4 class="trip-name">
-                    Green River Rafting through the Gates of Lodore
+                    Annapuran Trek
                   </h4>
                   <div class="trip-stats">
                     <span>3, 4 or 5 Days</span> <span class="sep">|</span>
@@ -461,7 +170,7 @@
                     >
                   </div>
                   <ul class="trip-details-list">
-                    <li><strong>Location:</strong> Utah & Colorado</li>
+                    <li><strong>Max Altitude:</strong> 4,445m</li>
                     <li><strong>Adventure Level:</strong> Moderate</li>
                   </ul>
                 </div>
@@ -478,15 +187,14 @@
               <div class="trip-card">
                 <div class="trip-img-box">
                   <img
-                    src="https://media.oars.com/wp-content/uploads/2024/07/11073043/SFA_Outpost-16-scaled.jpg"
+                    src="https://staging2.webhouse.com.np/images/main/Sun-04-04-32-1322027392-erik-0ldqchbk1a0-unsplash-compressed.jpg"
                     alt="Utah Whitewater Rafting"
                   />
-                  <div class="trip-favorite"><i class="far fa-heart"></i></div>
                 </div>
                 <div class="trip-body">
-                  <p class="trip-category">WHITEWATER RAFTING</p>
+                  <p class="trip-category">Trekking</p>
                   <h4 class="trip-name">
-                    Utah Whitewater Rafting through Split Mountain Canyon
+                    Langtang Trek
                   </h4>
                   <div class="trip-stats">
                     <span>1 Day</span> <span class="sep">|</span>
@@ -496,7 +204,7 @@
                     >
                   </div>
                   <ul class="trip-details-list">
-                    <li><strong>Location:</strong> Utah</li>
+                    <li><strong>Max Altitude:</strong> 4,445m</li>
                     <li>
                       <strong>Adventure Level:</strong> Easier to Moderate
                     </li>
@@ -515,14 +223,13 @@
               <div class="trip-card">
                 <div class="trip-img-box">
                   <img
-                    src="https://media.oars.com/wp-content/uploads/2015/12/20233352/CAT-featured.jpg"
+                    src="https://staging2.webhouse.com.np/images/main/Mon-10-33-23-272368832-fishtail.png"
                     alt="Cataract Canyon"
                   />
-                  <div class="trip-favorite"><i class="far fa-heart"></i></div>
                 </div>
                 <div class="trip-body">
-                  <p class="trip-category">WHITEWATER RAFTING</p>
-                  <h4 class="trip-name">Cataract Canyon Whitewater Rafting</h4>
+                  <p class="trip-category">Trekking</p>
+                  <h4 class="trip-name">Mardi Himal</h4>
                   <div class="trip-stats">
                     <span>4 or 6 Days</span> <span class="sep">|</span>
                     <span class="rating"
@@ -531,22 +238,18 @@
                     >
                   </div>
                   <ul class="trip-details-list">
-                    <li><strong>Location:</strong> Utah</li>
+                    <li><strong>Max Altitude:</strong> 4,445m</li>
                     <li>
                       <strong>Adventure Level:</strong> Moderate to Challenging
                     </li>
-                    <li>
-                      <strong>Minimum Age:</strong> 9 (12-14 during high water)
-                    </li>
+
                   </ul>
                 </div>
                 <div class="trip-footer">
                   <div class="trip-price">
                     From <strong>$1749 – $2599</strong>
                   </div>
-                  <div class="trip-compare">
-                    <label> COMPARE <input type="checkbox" /> </label>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -556,14 +259,14 @@
               <div class="trip-card">
                 <div class="trip-img-box">
                   <img
-                    src="https://media.oars.com/wp-content/uploads/2024/07/11073043/SFA_Outpost-16-scaled.jpg"
+                    src="https://staging2.webhouse.com.np/images/main/Mon-10-33-23-272368832-fishtail.png"
                     alt="Rogue River"
                   />
                   <div class="trip-favorite"><i class="far fa-heart"></i></div>
                 </div>
                 <div class="trip-body">
-                  <p class="trip-category">WHITEWATER RAFTING</p>
-                  <h4 class="trip-name">Rogue River Wilderness Rafting</h4>
+                  <p class="trip-category">Trekking</p>
+                  <h4 class="trip-name">Manasalu Trek</h4>
                   <div class="trip-stats">
                     <span>3, 4 or 5 Days</span> <span class="sep">|</span>
                     <span class="rating"
@@ -572,9 +275,8 @@
                     >
                   </div>
                   <ul class="trip-details-list">
-                    <li><strong>Location:</strong> Oregon</li>
+                    <li><strong>Max Altitude:</strong> 4,445m</li>
                     <li><strong>Adventure Level:</strong> Moderate</li>
-                    <li><strong>Minimum Age:</strong> 7</li>
                   </ul>
                 </div>
                 <div class="trip-footer">
@@ -942,125 +644,4 @@
       </div>
     </section>
 
-    <footer class="site-footer">
-      <div class="container-fluid featured-container">
-        <div class="row">
-          <!-- ── COL 1: Brand ── -->
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <a href="#" class="footer-logo">
-              <img src="image/logo.png" alt="logo" />
-            </a>
-
-            <!-- Phone numbers -->
-            <div class="phone-group">
-              <div class="phone-block">
-                <div class="phone-label">US or Canada</div>
-                <a href="tel:18003466277" class="phone-number"
-                  >1 (800) 346-6277</a
-                >
-              </div>
-              <div class="phone-block">
-                <div class="phone-label">International</div>
-                <a href="tel:12097364677" class="phone-number"
-                  >1 (209) 736-4677</a
-                >
-              </div>
-            </div>
-
-            <!-- Social Icons -->
-            <div class="social-icons">
-              <a href="#" class="social-icon" aria-label="Instagram"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="#" class="social-icon" aria-label="YouTube"
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a href="#" class="social-icon" aria-label="Facebook"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a href="#" class="social-icon" aria-label="Pinterest"
-                ><i class="fab fa-pinterest-p"></i
-              ></a>
-            </div>
-
-            <!-- Contact CTA -->
-            <a href="#" class="btn-primary">Contact Us</a>
-          </div>
-
-          <!-- ── COL 2: Quick Links ── -->
-          <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-            <p class="footer-nav-heading">Quick Links</p>
-            <ul class="footer-nav-list">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Blogs</a></li>
-              <li><a href="#">Reviews</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-
-          <!-- ── COL 3: Plan Your Adventure ── -->
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <p class="footer-nav-heading">Popular Destination</p>
-            <ul class="footer-nav-list">
-              <li><a href="#">Everest Base Camp Trek</a></li>
-              <li><a href="#">Annapurna Trek</a></li>
-              <li><a href="#">Langtang Trek</a></li>
-              <li><a href="#">Mardi Himal</a></li>
-            </ul>
-          </div>
-
-          <!-- ── COL 4: Newsletter ── -->
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <p class="newsletter-heading">Get Email Updates</p>
-            <p class="newsletter-desc">
-              Sign up today for monthly giveaways, engaging stories &amp;
-              videos, special offers &amp; more!
-            </p>
-            <div class="newsletter-form">
-              <input
-                type="email"
-                class="newsletter-input"
-                placeholder="email@example.com"
-                aria-label="Email address"
-              />
-              <button class="btn-primary">Get the Newsletter</button>
-            </div>
-          </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- ── Bottom Bar ── -->
-        <div class="footer-bottom">
-          <div class="row align-items-center">
-            <div class="col-md-6 footer-bottom-left">
-              <p>
-                © 2026 Diverse. All Rights Reserved.<br />
-                Diverse is an Equal Opportunity Provider.
-              </p>
-            </div>
-            <div class="col-md-6 footer-bottom-right">
-              <a href="#">Terms &amp; Conditions</a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Home</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </footer>
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
-
-    <!-- Slick Slider JS -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-
-    <!-- Custom JS -->
-    <script src="js/main.js"></script>
-  </body>
-</html>
+    <?php include "include/footer.php"?>
