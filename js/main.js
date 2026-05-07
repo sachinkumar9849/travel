@@ -254,4 +254,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
 
+    // ── Mega Menu Tab Switching ──
+    const megaMenuTabs = document.querySelectorAll('.mega-menu__tab-item');
+    const megaMenuPanels = document.querySelectorAll('.mega-menu__tab-panel');
+
+    megaMenuTabs.forEach(tab => {
+        tab.addEventListener('mouseenter', function () {
+            const target = this.getAttribute('data-tab');
+
+            // Update Tabs
+            megaMenuTabs.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+
+            // Update Panels
+            megaMenuPanels.forEach(panel => {
+                if (panel.id === target) {
+                    panel.classList.add('active');
+                } else {
+                    panel.classList.remove('active');
+                }
+            });
+        });
+    });
+
 });
