@@ -120,6 +120,7 @@ p {
   top: 0;
   z-index: 1000;
   box-shadow: var(--shadow-sm);
+  padding: 10px 0;
 }
 
 .header-inner {
@@ -147,9 +148,10 @@ p {
 }
 
 .header-logo img {
-  height: 90px;
-  width: auto;
-  object-fit: contain;
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    padding: 5px 0;
 }
 
 /* ── Primary Nav ── */
@@ -173,7 +175,7 @@ p {
   align-items: center;
   gap: 5px;
   padding: 18px 16px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--header-link);
   text-transform: uppercase;
@@ -2744,4 +2746,13 @@ p {
   line-height: 1.6;
   max-width: 280px;
   margin: 0 auto;
+}
+
+
+/* blog section */
+.post-single__title{
+  font-size: 60px;
+  color: var(--color-primary-dark);
+  font-family: "karma", serif;
+  text-align: center;
 }
