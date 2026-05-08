@@ -92,13 +92,4 @@
       </div>
     </section>
 
-    <!-- ====== CTA SECTION ====== -->
-    <section class="py-5 bg-light">
-      <div class="container text-center">
-        <h2 class="block-header">Want to join our team?</h2>
-        <p class="mb-4">We're always looking for passionate adventure seekers to join our global network.</p>
-        <a href="contact.php" class="header-cta">Contact Us Today</a>
-      </div>
-    </section>
-
 <?php include "include/footer.php"?>

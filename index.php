@@ -97,7 +97,7 @@
           <div class="testimonial-trip">
             Everest Base Camp
           </div>
-          <a href="#" class="testimonial-link">VIEW ALL REVIEWS</a>
+          <a href="reviews.php" class="testimonial-link">VIEW ALL REVIEWS</a>
         </div>
       </section>
 
@@ -113,6 +113,7 @@
           <div class="featured-slider" id="featured-slider">
             <!-- Card 1 -->
             <div class="trip-card-wrapper">
+              <a href="package-detail.php">
               <div class="trip-card">
                 <div class="trip-img-box">
                   <img
@@ -145,10 +146,12 @@
                   </div>
                 </div>
               </div>
+              </a>
             </div>
 
             <!-- Card 2 -->
             <div class="trip-card-wrapper">
+              <a href="package-detail.php">
               <div class="trip-card">
                 <div class="trip-img-box">
     
@@ -180,10 +183,12 @@
                   </div>
                 </div>
               </div>
+              </a>
             </div>
 
             <!-- Card 3 -->
             <div class="trip-card-wrapper">
+              <a href="package-detail.php">
               <div class="trip-card">
                 <div class="trip-img-box">
                   <img
@@ -216,10 +221,12 @@
                   </div>
                 </div>
               </div>
+              </a>
             </div>
 
             <!-- Card 4 -->
             <div class="trip-card-wrapper">
+              <a href="package-detail.php">
               <div class="trip-card">
                 <div class="trip-img-box">
                   <img
@@ -252,10 +259,12 @@
 
                 </div>
               </div>
+              </a>
             </div>
 
             <!-- Card 5 (for scrolling) -->
             <div class="trip-card-wrapper">
+              <a href="package-detail.php">
               <div class="trip-card">
                 <div class="trip-img-box">
                   <img
@@ -288,6 +297,7 @@
                   </div>
                 </div>
               </div>
+              </a>
             </div>
           </div>
 
@@ -321,7 +331,7 @@
               id="page-block-block_698282471878e"
               class="block-buttons c-btn-wrapper text-left"
             >
-              <a class="btn-primary" href="https://www.oars.com/why-oars/"
+              <a class="btn-primary" href=""
                 >Discover Why Diverse</a
               >
             </div>
@@ -394,11 +404,11 @@
               <div class="card-col">
                 <div class="dest-card">
                   <img
-                    src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&q=80"
+                    src="https://staging2.webhouse.com.np/images/main/Wed-04-44-15-957067939-gettyimages-1233280207.jpg"
                     alt="Baja, Mexico"
                   />
                   <div class="card-label">
-                    <span>Baja, Mexico</span>
+                    <span>Annapurna Trek</span>
                     <svg viewBox="0 0 24 24">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
@@ -406,11 +416,11 @@
                 </div>
                 <div class="dest-card">
                   <img
-                    src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=700&q=80"
+                    src="https://staging2.webhouse.com.np/images/main/Sun-04-04-32-1322027392-erik-0ldqchbk1a0-unsplash-compressed.jpg"
                     alt="Colorado River"
                   />
                   <div class="card-label">
-                    <span>Colorado River</span>
+                    <span>Everest Trek</span>
                     <svg viewBox="0 0 24 24">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
@@ -424,11 +434,11 @@
               <div class="card-col">
                 <div class="dest-card">
                   <img
-                    src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700&q=80"
+                    src="https://staging2.webhouse.com.np/images/main/Wed-04-44-15-957067939-gettyimages-1233280207.jpg"
                     alt="Dinosaur National Monument"
                   />
                   <div class="card-label">
-                    <span>Dinosaur National Monument</span>
+                    <span>Annapurna Trek</span>
                     <svg viewBox="0 0 24 24">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
@@ -436,11 +446,11 @@
                 </div>
                 <div class="dest-card">
                   <img
-                    src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=700&q=80"
+                    src="https://staging2.webhouse.com.np/images/main/Sun-04-04-32-1322027392-erik-0ldqchbk1a0-unsplash-compressed.jpg"
                     alt="Grand Canyon Rafting"
                   />
                   <div class="card-label">
-                    <span>Grand Canyon</span>
+                    <span>Everest Trek</span>
                     <svg viewBox="0 0 24 24">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
@@ -454,11 +464,11 @@
               <div class="card-col">
                 <div class="dest-card">
                   <img
-                    src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=700&q=80"
+                    src="https://media.oars.com/wp-content/uploads/2015/12/20233352/CAT-featured.jpg"
                     alt="Canada"
                   />
                   <div class="card-label">
-                    <span>Canada</span>
+                    <span>Annapurna Trek</span>
                     <svg viewBox="0 0 24 24">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
@@ -466,11 +476,11 @@
                 </div>
                 <div class="dest-card">
                   <img
-                    src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=700&q=80"
+                    src="https://staging2.webhouse.com.np/images/main/Mon-10-33-23-272368832-fishtail.png"
                     alt="Idaho"
                   />
                   <div class="card-label">
-                    <span>Idaho</span>
+                    <span>Everest Trek</span>
                     <svg viewBox="0 0 24 24">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
@@ -488,7 +498,7 @@
                     alt="Machu Picchu, Peru"
                   />
                   <div class="card-label">
-                    <span>Machu Picchu, Peru</span>
+                    <span>Annapurna Trek</span>
                     <svg viewBox="0 0 24 24">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
@@ -496,11 +506,11 @@
                 </div>
                 <div class="dest-card">
                   <img
-                    src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=700&q=80"
+                    src="https://staging2.webhouse.com.np/images/main/Mon-10-33-23-272368832-fishtail.png"
                     alt="Patagonia"
                   />
                   <div class="card-label">
-                    <span>Patagonia</span>
+                    <span>Everest Trek</span>
                     <svg viewBox="0 0 24 24">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
